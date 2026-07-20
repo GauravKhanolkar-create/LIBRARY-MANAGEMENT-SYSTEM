@@ -144,9 +144,3 @@ The app opens in your browser at `http://localhost:8501`.
 - `sp_IssueBook` currently logs the issuing staff as `staff_id = 1` — make sure at least one row exists in the `Staff` table.
 - Deleting a book with existing transaction history is intentionally blocked by MySQL's foreign key constraint (`fk_txn_book`) to avoid orphaned records.
 - This is an educational mini project; production hardening (password hashing, connection pooling, input validation, HTTPS) is out of scope but noted here for anyone extending it.
-
----
-
-## License
-
-This project was created for academic/educational purposes as a mini project.
