@@ -9,7 +9,7 @@ st.title("LIBRARY MANAGEMENT SYSTEM")
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "1234567890",
+    "password": "Your Password",
     "database": "library_management",
 }
 
